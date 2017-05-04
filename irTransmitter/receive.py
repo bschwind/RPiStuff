@@ -54,5 +54,6 @@ while True:
 	for (val, pulse) in command:
 		print val, pulse
 	print "-----------End-----------\n"
+	print 'Hex value: ' + hex(int(binaryString = "".join(map(lambda x: "1" if x[1] > 1000 else "0", filter(lambda x: x[0] == 1, command))),2)) 
 
 	print "Size of array is " + str(len(command))
